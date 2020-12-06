@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-selenium_grid" class="navigator-link">
+              <span class="suite-name border-passed">selenium_grid</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-selenium_grid" class="navigator-link ">
+                    <span>C:\java3\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-selenium_grid" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-selenium_grid" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-selenium_grid" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-selenium_grid" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-selenium_grid" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-selenium_grid" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-selenium_grid" class="hide-methods passed suite-selenium_grid"> (hide)</a> <!-- hide-methods passed suite-selenium_grid -->
+                      <a href="#" panel-name="suite-selenium_grid" class="show-methods passed suite-selenium_grid"> (show)</a> <!-- show-methods passed suite-selenium_grid -->
+                    </span>
+                    <div class="method-list-content passed suite-selenium_grid">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-selenium_grid" title="selenium_grid.Selenium_grid_Chrome2" class="method navigator-link" hash-for-method="runINChrome2">runINChrome2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-selenium_grid" title="selenium_grid.Selenium_grid_Chrome3" class="method navigator-link" hash-for-method="runInChrome1">runInChrome1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-selenium_grid" title="selenium_grid.Selenium_grid_Chrome1" class="method navigator-link" hash-for-method="runInChrome1">runInChrome1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-selenium_grid" title="selenium_grid.Selenium_grid_firefox" class="method navigator-link" hash-for-method="runInFirefox">runInFirefox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-selenium_grid -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-selenium_grid" class="panel selenium_grid">
+          <div class="suite-selenium_grid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium_grid.Selenium_grid_Chrome1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runInChrome1">
+                  </a> <!-- runInChrome1 -->
+                  <span class="method-name">runInChrome1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-selenium_grid-class-passed -->
+          <div class="suite-selenium_grid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium_grid.Selenium_grid_Chrome3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runInChrome1">
+                  </a> <!-- runInChrome1 -->
+                  <span class="method-name">runInChrome1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-selenium_grid-class-passed -->
+          <div class="suite-selenium_grid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium_grid.Selenium_grid_firefox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runInFirefox">
+                  </a> <!-- runInFirefox -->
+                  <span class="method-name">runInFirefox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-selenium_grid-class-passed -->
+          <div class="suite-selenium_grid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium_grid.Selenium_grid_Chrome2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runINChrome2">
+                  </a> <!-- runINChrome2 -->
+                  <span class="method-name">runINChrome2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-selenium_grid-class-passed -->
+        </div> <!-- panel selenium_grid -->
+        <div panel-name="test-xml-selenium_grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\java3\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;selenium_grid&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;FunctionalTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;selenium_grid.Selenium_grid_Chrome1&quot;/&gt;
+      &lt;class name=&quot;selenium_grid.Selenium_grid_Chrome2&quot;/&gt;
+      &lt;class name=&quot;selenium_grid.Selenium_grid_Chrome3&quot;/&gt;
+      &lt;class name=&quot;selenium_grid.Selenium_grid_firefox&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FunctionalTest --&gt;
+&lt;/suite&gt; &lt;!-- selenium_grid --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-selenium_grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for selenium_grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FunctionalTest (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-selenium_grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for selenium_grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-selenium_grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for selenium_grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_selenium_grid');
+function tableData_selenium_grid() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runInFirefox')
+data.setCell(0, 2, 'selenium_grid.Selenium_grid_firefox')
+data.setCell(0, 3, 58365);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runInChrome1')
+data.setCell(1, 2, 'selenium_grid.Selenium_grid_Chrome3')
+data.setCell(1, 3, 57469);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runInChrome1')
+data.setCell(2, 2, 'selenium_grid.Selenium_grid_Chrome1')
+data.setCell(2, 3, 54198);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runINChrome2')
+data.setCell(3, 2, 'selenium_grid.Selenium_grid_Chrome2')
+data.setCell(3, 3, 44635);
+window.suiteTableData['selenium_grid']= { tableData: data, tableDiv: 'times-div-selenium_grid'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-selenium_grid">
+              </div> <!-- times-div-selenium_grid -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-selenium_grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for selenium_grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-selenium_grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-selenium_grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium_grid.Selenium_grid_Chrome1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runInChrome1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium_grid.Selenium_grid_Chrome3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runInChrome1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium_grid.Selenium_grid_firefox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runInFirefox</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium_grid.Selenium_grid_Chrome2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runINChrome2</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

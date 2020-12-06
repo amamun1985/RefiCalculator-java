@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="selenium_grid" verbose="1" parallel="classes">
+    <test name="FunctionalTest" >
+        <classes>
+            <class name="selenium_grid.Selenium_grid_Chrome1" />
+            <class name="selenium_grid.Selenium_grid_Chrome2" />
+            <class name="selenium_grid.Selenium_grid_Chrome3" />
+            <class name="selenium_grid.Selenium_grid_firefox" />
+        </classes>
+    </test>
+</suite>

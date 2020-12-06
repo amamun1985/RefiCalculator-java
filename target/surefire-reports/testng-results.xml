@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-06T15:13:46 EST" name="selenium_grid" finished-at="2020-12-06T15:14:44 EST" duration-ms="58508">
+    <groups>
+    </groups>
+    <test started-at="2020-12-06T15:13:46 EST" name="FunctionalTest" finished-at="2020-12-06T15:14:44 EST" duration-ms="58508">
+      <class name="selenium_grid.Selenium_grid_Chrome2">
+        <test-method signature="runINChrome2()[pri:0, instance:selenium_grid.Selenium_grid_Chrome2@7748410a]" started-at="2020-12-06T15:13:46 EST" name="runINChrome2" finished-at="2020-12-06T15:14:31 EST" duration-ms="44635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runINChrome2 -->
+      </class> <!-- selenium_grid.Selenium_grid_Chrome2 -->
+      <class name="selenium_grid.Selenium_grid_Chrome1">
+        <test-method signature="runInChrome1()[pri:0, instance:selenium_grid.Selenium_grid_Chrome1@7c83dc97]" started-at="2020-12-06T15:13:46 EST" name="runInChrome1" finished-at="2020-12-06T15:14:40 EST" duration-ms="54198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInChrome1 -->
+      </class> <!-- selenium_grid.Selenium_grid_Chrome1 -->
+      <class name="selenium_grid.Selenium_grid_Chrome3">
+        <test-method signature="runInChrome1()[pri:0, instance:selenium_grid.Selenium_grid_Chrome3@740773a3]" started-at="2020-12-06T15:13:46 EST" name="runInChrome1" finished-at="2020-12-06T15:14:44 EST" duration-ms="57469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInChrome1 -->
+      </class> <!-- selenium_grid.Selenium_grid_Chrome3 -->
+      <class name="selenium_grid.Selenium_grid_firefox">
+        <test-method signature="runInFirefox()[pri:0, instance:selenium_grid.Selenium_grid_firefox@37f1104d]" started-at="2020-12-06T15:13:46 EST" name="runInFirefox" finished-at="2020-12-06T15:14:44 EST" duration-ms="58365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInFirefox -->
+      </class> <!-- selenium_grid.Selenium_grid_firefox -->
+    </test> <!-- FunctionalTest -->
+  </suite> <!-- selenium_grid -->
+</testng-results>
